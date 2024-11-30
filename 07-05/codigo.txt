@@ -1,0 +1,40 @@
+public class MainActivity extends AppCompatActivity {
+    Spinner sn;
+    TextView binario;
+    ArrayAdapter<String> Listabin;
+    String[] bin;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        sn = findViewById(R.id.sp);
+        binario = findViewById(R.id.txt);
+        preencher();
+
+        sn.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            public void onItemSelected(AdapterView parent, View view, int pos, long id) {
+              binario.setText(Integer.toBinaryString(Integer.parseInt(parent.getItemAtPosition(pos).toString())));
+
+            }
+            public void onNothingSelected(AdapterView parent){}
+        });
+
+    }
+
+    public void preencher(){
+
+        bin = new String[256];
+        int i=0;
+        while (i < 256) {
+            bin[i]=""+i;
+            i++;
+        }
+
+        Listabin = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item, bin);
+
+        sn.setAdapter(Listabin);
+
+    }
+}

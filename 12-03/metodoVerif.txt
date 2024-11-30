@@ -1,0 +1,39 @@
+public void verif(){
+
+        if
+         (btn1.getText().equals("X") && btn2.getText().equals("X") && btn3.getText().equals("X")
+         || btn4.getText().equals("X")&&btn5.getText().equals("X")&&btn6.getText().equals("X")
+         || btn7.getText().equals("X")&&btn8.getText().equals("X")&&btn9.getText().equals("X")
+         || btn1.getText().equals("X")&&btn5.getText().equals("X")&&btn9.getText().equals("X")
+         || btn3.getText().equals("X")&&btn5.getText().equals("X")&&btn7.getText().equals("X")
+         || btn1.getText().equals("X")&&btn4.getText().equals("X")&&btn7.getText().equals("X")
+         || btn2.getText().equals("X")&&btn5.getText().equals("X")&&btn8.getText().equals("X")
+         || btn3.getText().equals("X")&&btn6.getText().equals("X")&&btn9.getText().equals("X"))
+        {
+            alerta("O X venceu");
+         cont=0;
+	}
+
+    else if (
+           btn1.getText().equals("O") && btn2.getText().equals("O") && btn3.getText().equals("O")
+          || btn4.getText().equals("O")&&btn5.getText().equals("O")&&btn6.getText().equals("O")
+          || btn7.getText().equals("O")&&btn8.getText().equals("O")&&btn9.getText().equals("O")
+          || btn1.getText().equals("O")&&btn5.getText().equals("O")&&btn9.getText().equals("O")
+          || btn3.getText().equals("O")&&btn5.getText().equals("O")&&btn7.getText().equals("O")
+          || btn1.getText().equals("O")&&btn4.getText().equals("O")&&btn7.getText().equals("O")
+          || btn2.getText().equals("O")&&btn5.getText().equals("O")&&btn8.getText().equals("O")
+          || btn3.getText().equals("O")&&btn6.getText().equals("O")&&btn9.getText().equals("O")
+        )
+        {
+            alerta("o O venceu");
+            cont=0;
+        }
+
+        cont++;
+
+        if(cont ==9){
+            alerta("Empate");
+        }
+
+
+    }

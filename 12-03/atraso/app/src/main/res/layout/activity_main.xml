@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity" >
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/amarelo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="amar"
+            android:text="Amarelo"
+            android:textColor="#DCB422"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/azul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="az"
+            android:text="Azul"
+            android:textColor="#3F51B5"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/verde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="ver"
+            android:text="Verde"
+            android:textColor="#8BC34A"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/vermelho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="verm"
+            android:text="Vermelho"
+            android:textColor="#E91E5E"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="61dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Resultado!"
+            android:textAlignment="center"
+            android:textSize="48sp" />
+    </RadioGroup>
+</LinearLayout>

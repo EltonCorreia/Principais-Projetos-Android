@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8294FA"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="26sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <EditText
+        android:id="@+id/txtNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite sua nota"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtNotas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Digite sua nota"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#606FC5"
+        android:onClick="calcular"
+        android:text="Calcular"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

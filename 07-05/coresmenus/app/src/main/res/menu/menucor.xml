@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/amarelo" android:title="Amarelo" />
+
+    <item android:id="@+id/azul" android:title="Azul" />
+
+    <item android:id="@+id/verde" android:title="Verde" />
+
+    <item android:id="@+id/vermelho" android:title="Vermelho" />
+
+    <item android:id="@+id/rosa" android:title="Rosa" />
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dog"
+        android:title="Cachorro" />
+    <item
+        android:id="@+id/bic"
+        android:title="bichos" />
+    <item
+        android:id="@+id/elefan"
+        android:title="Elefante" />
+    <item
+        android:id="@+id/cat"
+        android:title="gato" />
+    <item
+        android:id="@+id/lion"
+        android:title="leão" />
+</menu>

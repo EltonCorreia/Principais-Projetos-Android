@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imV"
+        android:layout_width="310dp"
+        android:layout_height="310dp"
+        android:layout_margin="15dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtN"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="15dp"
+        android:gravity="center_vertical"
+        android:hint="Nome:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtT"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_margin="15dp"
+        android:gravity="center_vertical"
+        android:hint="Telefone:"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnInserir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="irInserir"
+            android:text="Inserir" />
+
+        <Button
+            android:id="@+id/btnPesquisar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="entrar"
+            android:text="Pesquisar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVoltar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="recuar"
+                android:text="&lt;" />
+
+            <Button
+                android:id="@+id/btnAvancar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="avancar"
+                android:text="&gt;" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

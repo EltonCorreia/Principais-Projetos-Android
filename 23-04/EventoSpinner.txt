@@ -1,0 +1,11 @@
+NomeseuSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int ItemPosicao, long l) {
+                //programe aqui
+		
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                         }
+        });

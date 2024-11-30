@@ -1,0 +1,15 @@
+nomeDoSeuSeekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int posicao, boolean b)
+            {
+                //programe aqui
+            }
+
+            @Override//não
+            public void onStartTrackingTouch(SeekBar seekBar) { }
+            @Override//não
+            public void onStopTrackingTouch(SeekBar seekBar) { }
+        });
+
+
+https://www.unifesp.br/reitoria/propessoas/departamentos/administracao-de-pessoal/editais-contratacao-para-estagiario-a

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/uva" android:title="Uva" />
+
+    <item android:id="@+id/laranja" android:title="Laranja" />
+
+    <item android:id="@+id/goiaba" android:title="Goiaba" />
+
+    <item android:id="@+id/banana" android:title="Banana" />
+
+    <item android:id="@+id/abacaxi" android:title="Abacaxi" />
+
+    <item android:id="@+id/melancia" android:title="Melancia" />
+
+</menu>

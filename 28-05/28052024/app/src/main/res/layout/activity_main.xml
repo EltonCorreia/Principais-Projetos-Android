@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8e22bb"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/alata"
+        android:text="Equação do 2º grau"
+        android:textAlignment="center"
+        android:textColor="#FDFD96"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/txtA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="A"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="#FDFD96"
+        android:textColorHint="#FDFD96" />
+
+    <EditText
+        android:id="@+id/txtB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="B"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="#FDFD96"
+        android:textColorHint="#FDFD96" />
+
+    <EditText
+        android:id="@+id/txtC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:ems="10"
+        android:fontFamily="@font/alata"
+        android:hint="C"
+        android:inputType="numberSigned|numberDecimal"
+        android:textColor="#FDFD96"
+        android:textColorHint="#FDFD96" />
+
+    <Button
+        android:id="@+id/btnSolucao"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#FDFD96"
+        android:fontFamily="@font/alata"
+        android:onClick="solucao"
+        android:text="Solução"
+        android:textColor="#8E22BB" />
+
+    <TextView
+        android:id="@+id/txtX1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/alata"
+        android:hint="● A raiz para X1 é:"
+        android:textColor="#FDFD96"
+        android:textColorHint="#FDFD96"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtX2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/alata"
+        android:hint="● A raiz para X2 é:"
+        android:textColor="#FDFD96"
+        android:textColorHint="#FDFD96"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtDelta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:fontFamily="@font/alata"
+        android:hint="● Delta:"
+        android:textColor="#FDFD96"
+        android:textColorHint="#FDFD96"
+        android:textSize="20sp" />
+
+</LinearLayout>

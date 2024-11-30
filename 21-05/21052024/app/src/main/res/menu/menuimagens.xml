@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/gato" android:title="Gato" />
+
+    <item android:id="@+id/rato" android:title="Rato" />
+
+    <item android:id="@+id/elefante" android:title="Elefante" />
+
+    <item android:id="@+id/pinguim" android:title="Pinguim" />
+
+    <item android:id="@+id/cachorro" android:title="Cachorro" />
+
+</menu>
